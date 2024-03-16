@@ -1,5 +1,5 @@
 # Magento2 Backend Search
-- This module searches through Magento's default backend search, incorporating items from the configuration / menu as well.
+- When searching for Magento backend, it searches in both configuration and menu.
 
 ## Installation
 - Install the module composer by running `composer require hgati/module-backend-search:dev-master`
