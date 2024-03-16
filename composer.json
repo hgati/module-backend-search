@@ -1,0 +1,24 @@
+{
+    "name": "hgati/module-backend-search",
+    "description": "Advanced backend search on admin panel",
+    "require": {
+        "php": "^8.2"
+    },
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "version" : "1.0.0",
+    "authors": [
+        {
+            "name": "Dennis Lee",
+            "email": "cobays@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Hgati\\BackendSearch\\": ""
+        }
+    }
+}
